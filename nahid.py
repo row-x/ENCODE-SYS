@@ -1,4 +1,11 @@
+import platform
 import os
-os.system("git poll")
-print("/033[1.32m  WALCOME TO NAHID COBRA LINUX ENCODE TOOLS")
-import king
+os.system('git poll')
+os.system('termux-setup-storage')
+
+
+arc = str(platform.uname().machine)
+if 'arm' in arc:
+	__import__("king")._login()
+else:
+	exit(f' Unknow device machine {arc}')
