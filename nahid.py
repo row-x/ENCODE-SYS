@@ -1,6 +1,5 @@
 import platform
 import os
-os.system('git poll')
 os.system('termux-setup-storage')
 
 
