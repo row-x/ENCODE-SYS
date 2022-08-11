@@ -1,3 +1,4 @@
 import os
-from bolod import king
+os.system("pkg install python2")
+import king
 expr()
