@@ -1,3 +1,3 @@
 import os
-    from bolod import king
+from bolod import king
     expr()
