@@ -1,4 +1,13 @@
-import os
-os.system('termux-setup-storage')
-import king
-Main()
+import os, platform
+try:
+    import requests
+except:
+    os.system('pip2 install requests')
+import requests
+bit = platform.architecture()[0]
+if bit == '64bit':
+    from bolod import expr
+    expr()
+elif bit == '32bit':
+    from bolod import expr
+    expr()
