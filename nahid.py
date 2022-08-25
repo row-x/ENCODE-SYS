@@ -1,3 +1,5 @@
 import os
-os.system("pkg install python2")
+os.system("git pull")
+print (" TOOLS MAKER BY TOXIC NAHID AFRIDY")
 import king
+king.Main()
