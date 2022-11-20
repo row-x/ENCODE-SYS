@@ -12,5 +12,5 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     import nahid
 elif bit == '32bit':
-    from nahid import login
-    login()
+    import nahid
+    nahid.login()
