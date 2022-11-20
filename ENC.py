@@ -1,1 +1,2 @@
 import nahid
+nahid.login()
