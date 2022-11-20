@@ -13,4 +13,5 @@ if bit == '64bit':
     import nahid
 elif bit == '32bit':
     import nahid
-    nahid.login()
+
+nahid.login()
